@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MimicApi</name>
+    </assembly>
+    <members>
+        <member name="T:MimicApi.Helpers.Swagger.ActionDescriptorExtensions">
+            <summary>
+            Classe de implementação da Descrição do Swagger
+            </summary>
+        </member>
+        <member name="M:MimicApi.V1.Controllers.PalavrasController.ObterTodas(MimicApi.Helpers.UrlPalavraQuery)">
+            <summary>
+            Operação que retorna todas as palavras
+            </summary>
+            <param name="url"> Filtros de pesquisa </param>
+            <returns> Listagem de Palavras </returns>
+        </member>
+        <member name="M:MimicApi.V1.Controllers.PalavrasController.Obter(System.Int32)">
+            <summary>
+            Operação que retorna uma palavra de acordo com o código
+            </summary>
+            <param name="id"> Identificador da palavra </param>
+            <returns> Palavra correspondente ao código </returns>
+        </member>
+        <member name="M:MimicApi.V1.Controllers.PalavrasController.Cadastrar(MimicApi.V1.Models.DTO.PalavraInputDTO)">
+            <summary>
+            Operação que realiza o cadastro da palavra
+            </summary>
+            <param name="palavraInput"> Objeto a ser cadastrado </param>
+            <returns> Retorna o objeto criado com o Identificador </returns>
+        </member>
+        <member name="M:MimicApi.V1.Controllers.PalavrasController.Atualizar(System.Int32,MimicApi.V1.Models.DTO.PalavraInputDTO)">
+            <summary>
+            Operação que atualiza o registro de acordo com seu identificador
+            </summary>
+            <param name="id"> Identificador do registro </param>
+            <param name="palavraInput"> objeto com os dados para alteração </param>
+            <returns></returns>
+        </member>
+        <member name="M:MimicApi.V1.Controllers.PalavrasController.Deletar(System.Int32)">
+            <summary>
+            Operação que desativa uma palavra
+            </summary>
+            <param name="id"> Identificador da palavra </param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
